@@ -2,7 +2,11 @@
   "shop_name": "💡 Vua Đèn Decor 3D",
   "hero_title": "THƯ GIÃN TÂM TRÍ - CẢM HỨNG KHÔNG GIAN",
   "hero_desc": "Khám phá bộ sưu tập đèn decor in 3D độc bản, kiến tạo góc setup ánh sáng cực chill.",
-  "hero_banner_img": "images/banner-moi.jpg", 
+  "hero_banner_imgs": [
+    "images/banner-1.jpg",
+    "images/banner-2.jpg"
+  ],
   "healing_video_thumb": "images/video1.jpg",
-  "zalo_number": "0833333832"
+  "zalo_number": "0833333832",
+  "facebook_page": "https://m.me/bebom213"
 }

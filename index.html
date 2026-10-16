@@ -26,7 +26,6 @@
         .hero { 
             display: flex; gap: 40px; padding: 40px 5%; background-color: #1E1E1E; align-items: center; 
         }
-        /* Đã thêm transition để ảnh chuyển mờ ảo mượt mà */
         .hero img { width: 55%; border-radius: 8px; object-fit: cover; border: 1px solid #333; transition: opacity 0.5s ease-in-out; }
         
         .hero-text { width: 45%; }
@@ -236,7 +235,7 @@
     </header>
 
     <div class="hero">
-        <img id="heroBannerImg" src="images/banner-moi.jpg" alt="Bộ Đèn Decor">
+        <img id="heroBannerImg" src="" alt="Bộ Đèn Decor">
         <div class="hero-text">
             <h1>THƯ GIÃN TÂM TRÍ - CẢM HỨNG KHÔNG GIAN</h1>
             <p>Khám phá bộ sưu tập đèn decor in 3D độc bản, kiến tạo góc setup ánh sáng cực chill.</p>
@@ -360,9 +359,27 @@
                 const heroDesc = document.querySelector('.hero-text p');
                 if(heroDesc) heroDesc.innerText = settings.hero_desc;
                 
-                const heroImg = document.querySelector('.hero img');
-                // Chỗ này không đè cứng src nữa để nhường cho Slideshow chạy
-                // if(heroImg) heroImg.src = settings.hero_banner_img; 
+                // --- ĐỌC ẢNH SLIDER TỪ SETTING.JSON ĐỂ CHẠY TỰ ĐỘNG ---
+                const heroBannerImg = document.getElementById("heroBannerImg");
+                if (heroBannerImg && settings.hero_banner_imgs && settings.hero_banner_imgs.length > 0) {
+                    const bannerImages = settings.hero_banner_imgs;
+                    let currentBannerIndex = 0;
+                    
+                    // Hiện ảnh đầu tiên ngay lập tức
+                    heroBannerImg.src = bannerImages[0];
+                    
+                    // Bắt đầu vòng lặp nếu có từ 2 ảnh trở lên
+                    if (bannerImages.length > 1) {
+                        setInterval(() => {
+                            heroBannerImg.style.opacity = 0; 
+                            setTimeout(() => {
+                                currentBannerIndex = (currentBannerIndex + 1) % bannerImages.length;
+                                heroBannerImg.src = bannerImages[currentBannerIndex];
+                                heroBannerImg.style.opacity = 1; 
+                            }, 500); 
+                        }, 3000); 
+                    }
+                }
                 
                 window.ZALO_NUMBER = settings.zalo_number;
                 window.FB_PAGE = settings.facebook_page;
@@ -613,30 +630,6 @@
                 closeModal();
                 document.getElementById('customPhotoZoomModal').style.display = 'none';
             }
-        }
-
-        // ==============================================================
-        // --- CHỨC NĂNG SLIDER TỰ ĐỘNG CHUYỂN ẢNH BANNER (ĐÃ THÊM MỚI) ---
-        // ==============================================================
-        const bannerImages = [
-            "images/banner-moi.jpg",
-            "images/banner-2.jpg",
-            "images/banner-3.jpg",
-            "images/banner-4.jpg",
-            "images/banner-5.jpg"
-        ];
-        let currentBannerIndex = 0;
-        const heroBannerImg = document.getElementById("heroBannerImg");
-
-        if (heroBannerImg && bannerImages.length > 1) {
-            setInterval(() => {
-                heroBannerImg.style.opacity = 0; 
-                setTimeout(() => {
-                    currentBannerIndex = (currentBannerIndex + 1) % bannerImages.length;
-                    heroBannerImg.src = bannerImages[currentBannerIndex];
-                    heroBannerImg.style.opacity = 1; 
-                }, 500); 
-            }, 3000); 
         }
     </script>
 
