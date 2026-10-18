@@ -14,11 +14,7 @@
             "images/sp_1/banner-6.jpg",
             "images/sp_1/banner-7.jpg"
         ],
-        "desc": [
-            "Chất liệu: Nhựa PETG xuyên sáng",
-            "Bóng LED 5W ánh sáng vàng",
-            "Nguồn điện: 220V trực tiếp"
-        ],
+        "desc": "<ul>\n  <li>Chất liệu: Nhựa PETG xuyên sáng</li>\n  <li>Màu sắc lồng đèn: 🔴 Đỏ - 🟡 Vàng - 🔵 Xanh (Tùy chọn)</li>\n  <li>Bóng LED 5W ánh sáng trắng</li>\n  <li>Nguồn điện: 220V trực tiếp</li>\n</ul>",
         "video_url": ""
     },
     {
