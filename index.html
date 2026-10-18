@@ -626,8 +626,12 @@
         }
 
         window.onclick = function(event) {
-            if (event.target === modal || event.target.id === 'customPhotoZoomModal') {
+            // 1. Nếu click vào nền đen ngoài cùng -> Đóng hẳn bảng chi tiết sản phẩm
+            if (event.target === modal) {
                 closeModal();
+            }
+            // 2. Nếu click vào nền đen của ảnh phóng to -> CHỈ tắt ảnh phóng to (không đóng bảng chi tiết)
+            else if (event.target.id === 'customPhotoZoomModal') {
                 document.getElementById('customPhotoZoomModal').style.display = 'none';
             }
         }
