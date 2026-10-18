@@ -2,17 +2,11 @@
     {
         "id": 1,
         "category": "plant",
-        "name": "Bộ Kít DIY- BABY DUCK ( Vịt Đáng Yêu ) - #001",
-        "price": "120.000 đ",
-        "img": "images/sp_1/banner-1.jpg",
+        "name": "💡 Vua Đèn Decor 💡-  Đèn Decor 3D - SP 001",
+        "price": "279.000 đ",
+        "img": "images/sp_1/1.jpg",
         "images": [
-            "images/sp_1/banner-1.jpg",
-            "images/sp_1/banner-2.jpg",
-            "images/sp_1/banner-3.jpg",
-            "images/sp_1/banner-4.jpg",
-            "images/sp_1/banner-5.jpg",
-            "images/sp_1/banner-6.jpg",
-            "images/sp_1/banner-7.jpg"
+            "images/sp_1/1.jpg"
         ],
         "desc": "<div style=\"line-height: 1.6; font-size: 15px;\">\n    <p style=\"margin-bottom: 12px;\">\n        ✨ <b>Tô điểm không gian - Khơi nguồn cảm hứng!</b><br>\n        Mẫu lồng đèn in 3D độc bản với các đường vân nghệ thuật, biến góc làm việc hay phòng ngủ của bạn thành một không gian cực \"chill\" và ấm áp.\n    </p>\n    \n    <div style=\"color: #FFB703; font-weight: bold; font-size: 16px; margin-bottom: 5px;\">💡 Thông số kỹ thuật:</div>\n    <ul style=\"margin-top: 0; margin-bottom: 15px; padding-left: 20px;\">\n        <li><b>Kích thước:</b> <span style=\"color: #FF4444; font-weight: bold;\">Cao 20cm x Rộng 15cm x Sâu 15cm</span></li>\n        <li><b>Chất liệu:</b> Nhựa sinh học PETG tản sáng, an toàn và thân thiện môi trường.</li>\n        <li><b>Ánh Sáng Đèn:</b> ⚪ Trắng - 🟡 Vàng - 🟠 Cam - 🔴 Đỏ - 🔵 Xanh Dương - 🟢 Xanh Lá</li>\n        <li><b>Nguồn:</b> Bóng LED 5W tiết kiệm điện (Có công tắc tăng giảm độ sáng). \n🎁 <b>Tặng kèm 1 củ sạc 5V đạt chuẩn 3C.</b></li>\n    </ul>\n\n    <div style=\"color: #FFB703; font-weight: bold; font-size: 16px; margin-bottom: 5px;\">🌟 Điểm nhấn nổi bật:</div>\n    <ul style=\"margin-top: 0; margin-bottom: 15px; padding-left: 20px;\">\n        <li>Hiệu ứng ánh sáng xuyên thấu qua từng lớp vân 3D cực kỳ đẹp mắt.</li>\n        <li>Món quà tặng độc đáo, ý nghĩa dành cho người yêu setup, decor nhà cửa.</li>\n    </ul>\n\n    <p style=\"margin-bottom: 0; padding: 10px; background-color: #2A2A2A; border-radius: 6px; border-left: 4px solid #FFB703;\">\n        📦 <b>Đóng gói & Bảo hành:</b> Sản phẩm được đóng hộp Kraft cứng cáp lót xốp an toàn. Hỗ trợ 1 đổi 1 ngay lập tức nếu có sự cố do vận chuyển.\n    </p>\n</div>",
         "video_url": ""
