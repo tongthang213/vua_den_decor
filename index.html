@@ -53,6 +53,42 @@
             .hero-text p { font-size: 22px !important; margin-top: 10px; }
         } 
         
+        /* --- KHU VỰC SẢN PHẨM BÁN CHẠY (Thêm Mới) --- */
+        .best-seller-section { padding: 40px 0 10px 0; width: 100%; }
+        .best-seller-title { color: #FFB703; font-size: 22px; font-weight: bold; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+        .bs-slider { display: flex; gap: 20px; overflow-x: auto; padding-bottom: 15px; scrollbar-width: none; }
+        .bs-slider::-webkit-scrollbar { display: none; }
+        
+        .bs-card { min-width: 250px; background: #1E1E1E; padding: 12px; border-radius: 12px; border: 1px solid #333; display: flex; flex-direction: column; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        .bs-card img { width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 8px; margin-bottom: 15px; }
+        
+        .bs-badge { 
+            background: #2A2A2A; 
+            color: #FFB703; 
+            padding: 6px 15px; 
+            border-radius: 20px; 
+            font-size: 14px; 
+            font-weight: bold; 
+            text-align: center; 
+            margin-bottom: 15px; 
+            border: 1px solid #FFB703; 
+        }
+        
+        .bs-card .btn-primary { 
+            width: 100%; 
+            border-radius: 8px; 
+            padding: 10px; 
+            background-color: #FFB703; 
+            color: #121212; 
+            font-weight: bold; 
+            border: none; 
+            cursor: pointer; 
+            transition: 0.2s; 
+            margin-top: auto;
+        }
+        .bs-card .btn-primary:hover { background: #e3a200; }
+        @media screen and (max-width: 768px) { .best-seller-section { padding: 25px 0 5px 0; } }
+
         /* Khung card sản phẩm */
         .product-card { 
             background: #1E1E1E; padding: 12px; border-radius: 12px; 
@@ -87,7 +123,7 @@
         .product-code { font-size: 12px; color: #aaa; margin-bottom: 4px; }
 
         .category-section { 
-            padding: 40px 5% 20px 5% !important; display: flex; 
+            padding: 20px 0 !important; display: flex; 
             align-items: center; gap: 15px; flex-wrap: wrap; width: 100%;
         }
         
@@ -136,7 +172,7 @@
             .logo { font-size: 18px !important; gap: 6px !important; }
             .logo img { height: 24px !important; }
             .desktop-only { display: none !important; }
-            .product-grid { grid-template-columns: 1fr !important; gap: 20px !important; padding: 0 10px; }
+            .product-grid { grid-template-columns: 1fr !important; gap: 20px !important; padding: 0; }
             .product-card { max-width: 100% !important; }
             .product-card img { height: 280px !important; object-fit: cover; }
             .healing-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 12px !important; }
@@ -151,7 +187,7 @@
             backdrop-filter: blur(8px); justify-content: center; align-items: center;
         }
         .modal-container {
-            background-color: #1E1E1E; border-radius: 16px; width: 90vw !important;    
+            background-color: #1E1E1E; border-radius: 16px; width: 90vw !important;   
             max-width: 1100px !important; height: 90vh !important;  
             position: relative; animation: slideDown 0.3s ease-out;
             padding: 30px; box-shadow: 0 15px 40px rgba(0,0,0,0.6); border: 1px solid #444;
@@ -248,6 +284,34 @@
     </div>
 
 <div style="max-width: 1320px; margin: 0 auto; padding: 0 20px;">
+    
+    <!-- TÍNH NĂNG MỚI THÊM: SẢN PHẨM BÁN CHẠY (VUỐT NGANG) -->
+    <div class="best-seller-section">
+        <div class="best-seller-title">🔥 SẢN PHẨM BÁN CHẠY NHẤT</div>
+        
+        <div class="bs-slider">
+            
+            <!-- Thẻ 1 -->
+            <div class="bs-card">
+                <!-- Sếp có thể thay đổi link ảnh thủ công dưới đây -->
+                <img src="images/sp_1/1 trang.jpg" alt="Đèn Decor Bán Chạy">
+                <div class="bs-badge">🔥 ĐÃ BÁN 450</div>
+                <!-- Sửa ID tương ứng bên trong chữ openModal() để nó mở đúng sản phẩm nhé -->
+                <button class="btn-primary" onclick="openModal(1)">CHI TIẾT</button>
+            </div>
+
+            <!-- Thẻ 2 -->
+            <div class="bs-card">
+                <img src="images/sp_2/1. trang.jpg" alt="Đèn Decor Bán Chạy">
+                <div class="bs-badge">🔥 ĐÃ BÁN 389</div>
+                <button class="btn-primary" onclick="openModal(2)">CHI TIẾT</button>
+            </div>
+
+            <!-- Nếu sếp cần tạo thêm thẻ, chỉ việc copy nguyên khối <div class="bs-card">...</div> dán vào đây -->
+
+        </div>
+    </div>
+
     <div class="category-section">
         <h2>DANH MỤC SẢN PHẨM:</h2>
         <button class="filter-btn active" style="background: transparent; color: #FFB703; border: 1px solid #FFB703; padding: 8px 15px; border-radius: 8px; cursor: pointer;" onclick="filterProducts('all', this)">
@@ -255,7 +319,7 @@
         </button>
     </div>
 
-    <div class="main-wrapper" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+    <div class="main-wrapper" style="max-width: 1200px; margin: 0 auto; padding: 20px 0;">
         <div class="product-section">
             <div class="product-grid" id="product-list">
                 <!-- Data từ file json sẽ tự động chui vào đây -->
