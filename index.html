@@ -54,40 +54,77 @@
         } 
         
         /* --- KHU VỰC SẢN PHẨM BÁN CHẠY (Thêm Mới) --- */
-        .best-seller-section { padding: 40px 0 10px 0; width: 100%; }
-        .best-seller-title { color: #FFB703; font-size: 22px; font-weight: bold; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
-        .bs-slider { display: flex; gap: 20px; overflow-x: auto; padding-bottom: 15px; scrollbar-width: none; }
-        .bs-slider::-webkit-scrollbar { display: none; }
-        
-        .bs-card { min-width: 250px; background: #1E1E1E; padding: 12px; border-radius: 12px; border: 1px solid #333; display: flex; flex-direction: column; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
-        .bs-card img { width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 8px; margin-bottom: 15px; }
-        
-        .bs-badge { 
-            background: #2A2A2A; 
-            color: #FFB703; 
-            padding: 6px 15px; 
-            border-radius: 20px; 
-            font-size: 14px; 
-            font-weight: bold; 
-            text-align: center; 
-            margin-bottom: 15px; 
-            border: 1px solid #FFB703; 
-        }
-        
-        .bs-card .btn-primary { 
-            width: 100%; 
-            border-radius: 8px; 
-            padding: 10px; 
-            background-color: #FFB703; 
-            color: #121212; 
-            font-weight: bold; 
-            border: none; 
-            cursor: pointer; 
-            transition: 0.2s; 
-            margin-top: auto;
-        }
-        .bs-card .btn-primary:hover { background: #e3a200; }
-        @media screen and (max-width: 768px) { .best-seller-section { padding: 25px 0 5px 0; } }
+.best-seller-section { padding: 40px 0 10px 0; width: 100%; position: relative; }
+.best-seller-title { color: #FFB703; font-size: 22px; font-weight: bold; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+
+/* Khung chứa có mũi tên */
+.bs-slider-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Nút trượt trái phải */
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background: #FFB703;
+  color: #121212;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+.scroll-btn:hover { background: #e3a200; transform: translateY(-50%) scale(1.1); }
+.scroll-left { left: -20px; }
+.scroll-right { right: -20px; }
+
+/* Danh sách trượt */
+.bs-slider { 
+  display: flex; 
+  gap: 20px; 
+  overflow-x: auto; 
+  padding: 10px 0 20px 0; 
+  scroll-behavior: smooth; /* Trượt mượt */
+  scrollbar-width: none; 
+  width: 100%;
+}
+.bs-slider::-webkit-scrollbar { display: none; }
+
+/* Thẻ sản phẩm cố định kích thước nhỏ gọn */
+.bs-card { 
+  min-width: 240px; /* Cố định độ rộng tối thiểu */
+  max-width: 240px; /* Ngăn thẻ tự phình to */
+  background: #1E1E1E; padding: 12px; border-radius: 12px; border: 1px solid #333; display: flex; flex-direction: column; box-shadow: 0 4px 15px rgba(0,0,0,0.5); 
+}
+.bs-card img { width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 8px; margin-bottom: 15px; }
+
+.bs-badge { 
+  background: #2A2A2A; color: #FFB703; padding: 6px 15px; border-radius: 20px; 
+  font-size: 14px; font-weight: bold; text-align: center; margin-bottom: 15px; border: 1px solid #FFB703; 
+}
+
+.bs-card .btn-primary { 
+  width: 100%; border-radius: 8px; padding: 10px; background-color: #FFB703; color: #121212; 
+  font-weight: bold; border: none; cursor: pointer; transition: 0.2s; margin-top: auto;
+}
+.bs-card .btn-primary:hover { background: #e3a200; }
+
+@media screen and (max-width: 768px) { 
+  .best-seller-section { padding: 25px 0 5px 0; } 
+  .scroll-btn { display: none; } /* Ẩn mũi tên trên điện thoại để người dùng tự vuốt */
+  .bs-card { min-width: 200px; max-width: 200px; }
+}
 
         /* Khung card sản phẩm */
         .product-card { 
@@ -285,32 +322,46 @@
 
 <div style="max-width: 1320px; margin: 0 auto; padding: 0 20px;">
     
-    <!-- TÍNH NĂNG MỚI THÊM: SẢN PHẨM BÁN CHẠY (VUỐT NGANG) -->
-    <div class="best-seller-section">
-        <div class="best-seller-title">🔥 SẢN PHẨM BÁN CHẠY NHẤT</div>
-        
-        <div class="bs-slider">
-            
-            <!-- Thẻ 1 -->
-            <div class="bs-card">
-                <!-- Sếp có thể thay đổi link ảnh thủ công dưới đây -->
-                <img src="images/sp_1/1 trang.jpg" alt="Đèn Decor Bán Chạy">
-                <div class="bs-badge">🔥 ĐÃ BÁN 450</div>
-                <!-- Sửa ID tương ứng bên trong chữ openModal() để nó mở đúng sản phẩm nhé -->
-                <button class="btn-primary" onclick="openModal(1)">CHI TIẾT</button>
-            </div>
+    <!-- TÍNH NĂNG MỚI THÊM: SẢN PHẨM BÁN CHẠY (VUỐT NGANG CÓ MŨI TÊN) -->
+<div class="best-seller-section">
+  <div class="best-seller-title">🔥 SẢN PHẨM BÁN CHẠY NHẤT</div>
+  
+  <div class="bs-slider-container">
+      <!-- Nút trượt trái -->
+      <button class="scroll-btn scroll-left" onclick="scrollSlider(-300)">&#10094;</button>
 
-            <!-- Thẻ 2 -->
-            <div class="bs-card">
-                <img src="images/sp_2/1. trang.jpg" alt="Đèn Decor Bán Chạy">
-                <div class="bs-badge">🔥 ĐÃ BÁN 389</div>
-                <button class="btn-primary" onclick="openModal(2)">CHI TIẾT</button>
-            </div>
+      <div class="bs-slider" id="bsSlider">
+          
+          <!-- Thẻ 1 -->
+          <div class="bs-card">
+              <img src="images/sp_1/1 trang.jpg" alt="Đèn Decor Bán Chạy">
+              <div class="bs-badge">🔥 ĐÃ BÁN 450</div>
+              <button class="btn-primary" onclick="openModal(1)">CHI TIẾT</button>
+          </div>
 
-            <!-- Nếu sếp cần tạo thêm thẻ, chỉ việc copy nguyên khối <div class="bs-card">...</div> dán vào đây -->
+          <!-- Thẻ 2 -->
+          <div class="bs-card">
+              <img src="images/sp_2/1. trang.jpg" alt="Đèn Decor Bán Chạy">
+              <div class="bs-badge">🔥 ĐÃ BÁN 389</div>
+              <button class="btn-primary" onclick="openModal(2)">CHI TIẾT</button>
+          </div>
+          
+          <!-- Sếp thêm các thẻ khác vào dưới dòng này -->
 
-        </div>
-    </div>
+      </div>
+
+      <!-- Nút trượt phải -->
+      <button class="scroll-btn scroll-right" onclick="scrollSlider(300)">&#10095;</button>
+  </div>
+</div>
+
+<!-- Lệnh điều khiển trượt ngang -->
+<script>
+  function scrollSlider(amount) {
+      const slider = document.getElementById("bsSlider");
+      slider.scrollBy({ left: amount, behavior: 'smooth' });
+  }
+</script>
 
     <div class="category-section">
         <h2>DANH MỤC SẢN PHẨM:</h2>
