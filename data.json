@@ -394,7 +394,7 @@
     {
         "id": 24,
         "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - KL 024",
-        "price": "379.000 Đ",
+        "price": "379.000 đ",
         "video_url": "",
         "img": "images/sp_24/1.png",
         "images": [
@@ -414,7 +414,7 @@
     {
         "id": 25,
         "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - KL 025",
-        "price": "379.000 Đ",
+        "price": "379.000 đ",
         "video_url": "",
         "img": "images/sp_25/1.png",
         "images": [
@@ -434,7 +434,7 @@
     {
         "id": 26,
         "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - KL 026",
-        "price": "379.000 Đ",
+        "price": "379.000 đ",
         "video_url": "",
         "img": "images/sp_26/1.png",
         "images": [
@@ -454,7 +454,7 @@
     {
         "id": 27,
         "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - KL 027",
-        "price": "379.000 Đ",
+        "price": "379.000 đ",
         "video_url": "",
         "img": "images/sp_27/1.png",
         "images": [
@@ -474,7 +474,7 @@
     {
         "id": 28,
         "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - KL 028",
-        "price": "379.000 Đ",
+        "price": "379.000 đ",
         "video_url": "",
         "img": "images/sp_28/1.png",
         "images": [
@@ -484,6 +484,106 @@
             "images/sp_28/4.png",
             "images/sp_28/5.png",
             "images/sp_28/6.png"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - KL 029",
+        "price": "379.000. đ",
+        "video_url": "",
+        "img": "images/sp_29/1.png",
+        "images": [
+            "images/sp_29/1.png",
+            "images/sp_29/2.png",
+            "images/sp_29/3.png",
+            "images/sp_29/4.png",
+            "images/sp_29/5.png",
+            "images/sp_29/6.png"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - KL 030",
+        "price": "379.000 đ",
+        "video_url": "",
+        "img": "images/sp_30/1.png",
+        "images": [
+            "images/sp_30/1.png",
+            "images/sp_30/2.png",
+            "images/sp_30/3.png",
+            "images/sp_30/4.png",
+            "images/sp_30/5.png",
+            "images/sp_30/6.png"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - KL 031",
+        "price": "379.000 đ",
+        "video_url": "",
+        "img": "images/sp_31/1.png",
+        "images": [
+            "images/sp_31/1.png",
+            "images/sp_31/2.png",
+            "images/sp_31/3.png",
+            "images/sp_31/4.png",
+            "images/sp_31/5.png",
+            "images/sp_31/6.png"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - KL 032",
+        "price": "379.000 đ",
+        "video_url": "",
+        "img": "images/sp_32/1.png",
+        "images": [
+            "images/sp_32/1.png",
+            "images/sp_32/2.png",
+            "images/sp_32/3.png",
+            "images/sp_32/4.png",
+            "images/sp_32/5.png",
+            "images/sp_32/6.png"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - KL 033",
+        "price": "379.000 đ",
+        "video_url": "",
+        "img": "images/sp_33/1.png",
+        "images": [
+            "images/sp_33/1.png",
+            "images/sp_33/2.png",
+            "images/sp_33/3.png",
+            "images/sp_33/4.png",
+            "images/sp_33/5.png",
+            "images/sp_33/6.png"
         ],
         "desc": [
             "Chất liệu: Nhựa PETG xuyên sáng",
