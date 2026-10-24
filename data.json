@@ -196,16 +196,16 @@
         "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - DX 013",
         "price": "379.000 d",
         "video_url": "",
-        "img": "images/sp_13/0.png",
+        "img": "images/sp_13/1.png",
         "images": [
-            "images/sp_13/0.png",
             "images/sp_13/1.png",
+            "images/sp_13/2.png",
             "images/sp_13/3.png",
             "images/sp_13/4.png",
             "images/sp_13/5.png",
             "images/sp_13/6.png"
         ],
-        "desc": "<div style=\"line-height: 1.6; font-size: 15px;\">\n    <p style=\"margin-bottom: 12px;\">\n        ✨ <b>Vẻ đẹp nguyên bản - Nghệ thuật điêu khắc không gian!</b><br>\n        Mang đậm tinh thần Wabi-Sabi và phong cách Organic Modern, mẫu đèn này là sự kết hợp hoàn hảo giữa những đường nét uốn lượn mềm mại tựa như dòng chảy của tự nhiên. Chao đèn tựa như một dải lụa bồng bềnh ôm lấy phần đế mang hình khối xoắn ốc vững chãi. Sự đối lập giữa bề mặt tản sáng mượt mà ở trên và hiệu ứng vân nhám thô mộc ở dưới tạo nên một tác phẩm nghệ thuật thực thụ, mang lại cảm giác bình yên và tĩnh tại cho căn phòng.\n    </p>\n    \n    <div style=\"color: #FFB703; font-weight: bold; font-size: 16px; margin-bottom: 5px;\">💡 Thông số kỹ thuật:</div>\n    <ul style=\"margin-top: 0; margin-bottom: 15px; padding-left: 20px;\">\n        <li><b>Kích thước:</b> <span style=\"color: #FF4444; font-weight: bold;\">Cao 24 cm x Rộng 25 cm x Sâu 25 cm</span></li>\n        <li><b>Chất liệu:</b> Chao đèn từ nhựa sinh học PETG tản sáng, kết hợp phần đế in 3D bề mặt nhám cao cấp, an toàn và thân thiện với môi trường.</li>\n        <li><b>Màu ánh sáng:</b> Khách hàng vui lòng chọn 1 trong 6 màu đơn sắc cố định: ⚪ Trắng - 🟡 Vàng - 🟠 Cam - 🔴 Đỏ - 🔵 Xanh Dương - 🟢 Xanh Lá. <br>\n        <i>(Gợi ý: Mẫu đèn mang hơi hướng tự nhiên này sẽ phát huy trọn vẹn vẻ đẹp ấm áp, mộc mạc khi sử dụng ánh sáng Vàng ấm).</i></li>\n        <li><b>Nguồn:</b> Bóng LED 5W tiết kiệm điện (Có công tắc tăng/giảm độ sáng).<br>\n        🎁 <b>Tặng kèm 1 củ sạc 5V đạt chuẩn 3C.</b></li>\n    </ul>\n\n    <div style=\"color: #FFB703; font-weight: bold; font-size: 16px; margin-bottom: 5px;\">🌟 Điểm nhấn & Đặc quyền:</div>\n    <ul style=\"margin-top: 0; margin-bottom: 15px; padding-left: 20px;\">\n        <li><b>Hiệu ứng thị giác:</b> Ánh sáng hắt xuống từ chao đèn làm nổi bật các đường gân uốn lượn và bề mặt nhám của phần đế, tạo chiều sâu không gian vô cùng ấn tượng.</li>\n        <li><b>Không gian bài trí:</b> Lựa chọn đỉnh cao cho tab đầu giường, kệ console, hoặc các không gian mang phong cách Wabi-Sabi, Rustic, Minimalist.</li>\n        <li><b>Cá nhân hóa (Đặc quyền in 3D):</b> Nhận khắc tên dưới đáy hoặc tùy chỉnh màu sắc phần đế (ví dụ: in màu giả gốm, giả gỗ) theo sở thích (Vui lòng nhắn tin để được tư vấn).</li>\n    </ul>\n\n    <div style=\"color: #FFB703; font-weight: bold; font-size: 16px; margin-bottom: 5px;\">🛡️ Hướng dẫn bảo quản:</div>\n    <ul style=\"margin-top: 0; margin-bottom: 15px; padding-left: 20px;\">\n        <li>Vệ sinh chao đèn bằng khăn ẩm. Với phần đế nhám, có thể dùng cọ mềm hoặc máy hút bụi mini để làm sạch các khe uốn lượn.</li>\n        <li>Tránh để sản phẩm gần nguồn nhiệt cao (trên 60°C) hoặc phơi nắng gắt trực tiếp để giữ được độ bền vững của cấu trúc.</li>\n    </ul>\n\n    <p style=\"margin-bottom: 0; padding: 10px; background-color: #2A2A2A; border-radius: 6px; border-left: 4px solid #FFB703; color: #FFFFFF;\">\n        📦 <b>Đóng gói & Bảo hành:</b> Sản phẩm được đóng hộp Kraft cứng cáp lót xốp an toàn. Hỗ trợ 1 đổi 1 ngay lập tức nếu có sự cố do vận chuyển.\n    </p>\n</div>"
+        "desc": "<div style=\"line-height: 1.6; font-size: 15px;\">\n    <p style=\"margin-bottom: 12px;\">\n        ✨"
     },
     {
         "id": 14,
@@ -384,6 +384,66 @@
             "images/sp_23/4.png",
             "images/sp_23/5.png",
             "images/sp_23/6.png"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - KL 024",
+        "price": "379.000 Đ",
+        "video_url": "",
+        "img": "images/sp_24/1.png",
+        "images": [
+            "images/sp_24/1.png",
+            "images/sp_24/2.png",
+            "images/sp_24/3.png",
+            "images/sp_24/4.png",
+            "images/sp_24/5.png",
+            "images/sp_24/6.png"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - KL 025",
+        "price": "379.000 Đ",
+        "video_url": "",
+        "img": "images/sp_25/1.png",
+        "images": [
+            "images/sp_25/1.png",
+            "images/sp_25/2.png",
+            "images/sp_25/3.png",
+            "images/sp_25/4.png",
+            "images/sp_25/5.png",
+            "images/sp_25/6.png"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - KL 026",
+        "price": "379.000 Đ",
+        "video_url": "",
+        "img": "images/sp_26/1.png",
+        "images": [
+            "images/sp_26/1.png",
+            "images/sp_26/2.png",
+            "images/sp_26/3.png",
+            "images/sp_26/4.png",
+            "images/sp_26/5.png",
+            "images/sp_26/6.png"
         ],
         "desc": [
             "Chất liệu: Nhựa PETG xuyên sáng",
