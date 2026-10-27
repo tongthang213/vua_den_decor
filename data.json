@@ -2,7 +2,7 @@
     {
         "id": 1,
         "category": "plant",
-        "name": "💡Đèn Decor In 3D - DX001 - Cao 16 x  Rộng 9 cm (Size Nhỏ )",
+        "name": "💡Đèn Decor In 3D - DX001 - Cao 16 x  Rộng 9 cm ( Size Nhỏ )",
         "price": "179.000 đ",
         "img": "images/sp_1/11.jpg",
         "images": [
@@ -18,8 +18,8 @@
     },
     {
         "id": 2,
-        "name": "💡Đèn Decor In 3D - LK002 - Cao 25 x  Rộng 15 cm (Size To )",
-        "price": "379.000 đ",
+        "name": "💡Đèn Decor In 3D - LK002 - Cao 25 x  Rộng 15 cm ( Size To )",
+        "price": "279.000 đ",
         "video_url": "",
         "img": "images/sp_2/1. trang.jpg",
         "images": [
@@ -34,8 +34,8 @@
     },
     {
         "id": 3,
-        "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - LK 003",
-        "price": "379.000 đ",
+        "name": "💡Đèn Decor In 3D - LK003 - Cao 24 x  Rộng 23 cm ( Size To )",
+        "price": "279.000 đ",
         "video_url": "",
         "img": "images/sp_3/1. trang.jpg",
         "images": [
@@ -50,8 +50,8 @@
     },
     {
         "id": 4,
-        "name": "💡 Vua Đèn Decor 💡-  Đèn Ngủ Decor In 3D - LK 004",
-        "price": "439.000 đ",
+        "name": "💡Đèn Decor In 3D - LK004 - Cao 33 x  Rộng 16 cm ( Size To )",
+        "price": "359.000 đ",
         "video_url": "",
         "img": "images/sp_4/1 trang.jpg",
         "images": [
