@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>💡 Vua Đèn Decor 3D 💡</title>
+    
+    <!-- Meta tags tối ưu chia sẻ Facebook/Zalo -->
+    <meta name="description" content="Khám phá bộ sưu tập 50+ đèn decor in 3D độc bản. Biến góc làm việc và phòng ngủ thành không gian nghệ thuật siêu chill.">
+    <meta property="og:title" content="Vua Đèn Decor 3D - Kiến tạo không gian chill">
+    <meta property="og:description" content="Chuyên Thiết Kế, In 3D Các Mẫu Đèn Decor Độc Bản. Tùy chỉnh màu sắc, khắc tên theo yêu cầu.">
+    <meta property="og:type" content="website">
+
     <style>
         /* CSS Reset & Cấu hình chung */
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -53,78 +60,53 @@
             .hero-text p { font-size: 22px !important; margin-top: 10px; }
         } 
         
-        /* --- KHU VỰC SẢN PHẨM BÁN CHẠY (Thêm Mới) --- */
-.best-seller-section { padding: 40px 0 10px 0; width: 100%; position: relative; }
-.best-seller-title { color: #FFB703; font-size: 22px; font-weight: bold; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+        /* --- KHU VỰC SẢN PHẨM BÁN CHẠY --- */
+        .best-seller-section { padding: 40px 0 10px 0; width: 100%; position: relative; }
+        .best-seller-title { color: #FFB703; font-size: 22px; font-weight: bold; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
 
-/* Khung chứa có mũi tên */
-.bs-slider-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
+        /* Khung chứa có mũi tên */
+        .bs-slider-container { position: relative; display: flex; align-items: center; }
 
-/* Nút trượt trái phải */
-.scroll-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  background: #FFB703;
-  color: #121212;
-  border: none;
-  border-radius: 50%;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  z-index: 10;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.2s;
-}
-.scroll-btn:hover { background: #e3a200; transform: translateY(-50%) scale(1.1); }
-.scroll-left { left: -20px; }
-.scroll-right { right: -20px; }
+        /* Nút trượt trái phải */
+        .scroll-btn {
+            position: absolute; top: 50%; transform: translateY(-50%); width: 40px; height: 40px;
+            background: #FFB703; color: #121212; border: none; border-radius: 50%;
+            font-size: 20px; font-weight: bold; cursor: pointer; z-index: 10;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; transition: 0.2s;
+        }
+        .scroll-btn:hover { background: #e3a200; transform: translateY(-50%) scale(1.1); }
+        .scroll-left { left: -20px; }
+        .scroll-right { right: -20px; }
 
-/* Danh sách trượt */
-.bs-slider { 
-  display: flex; 
-  gap: 20px; 
-  overflow-x: auto; 
-  padding: 10px 0 20px 0; 
-  scroll-behavior: smooth; /* Trượt mượt */
-  scrollbar-width: none; 
-  width: 100%;
-}
-.bs-slider::-webkit-scrollbar { display: none; }
+        /* Danh sách trượt */
+        .bs-slider { 
+            display: flex; gap: 20px; overflow-x: auto; padding: 10px 0 20px 0; 
+            scroll-behavior: smooth; scrollbar-width: none; width: 100%;
+        }
+        .bs-slider::-webkit-scrollbar { display: none; }
 
-/* Thẻ sản phẩm cố định kích thước nhỏ gọn */
-.bs-card { 
-  min-width: 240px; /* Cố định độ rộng tối thiểu */
-  max-width: 240px; /* Ngăn thẻ tự phình to */
-  background: #1E1E1E; padding: 12px; border-radius: 12px; border: 1px solid #333; display: flex; flex-direction: column; box-shadow: 0 4px 15px rgba(0,0,0,0.5); 
-}
-.bs-card img { width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 8px; margin-bottom: 15px; }
+        /* Thẻ sản phẩm cố định kích thước nhỏ gọn */
+        .bs-card { 
+            min-width: 240px; max-width: 240px; background: #1E1E1E; padding: 12px; border-radius: 12px; border: 1px solid #333; display: flex; flex-direction: column; box-shadow: 0 4px 15px rgba(0,0,0,0.5); 
+        }
+        .bs-card img { width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 8px; margin-bottom: 15px; }
 
-.bs-badge { 
-  background: #2A2A2A; color: #FFB703; padding: 6px 15px; border-radius: 20px; 
-  font-size: 14px; font-weight: bold; text-align: center; margin-bottom: 15px; border: 1px solid #FFB703; 
-}
+        .bs-badge { 
+            background: #2A2A2A; color: #FFB703; padding: 6px 15px; border-radius: 20px; 
+            font-size: 14px; font-weight: bold; text-align: center; margin-bottom: 15px; border: 1px solid #FFB703; 
+        }
 
-.bs-card .btn-primary { 
-  width: 100%; border-radius: 8px; padding: 10px; background-color: #FFB703; color: #121212; 
-  font-weight: bold; border: none; cursor: pointer; transition: 0.2s; margin-top: auto;
-}
-.bs-card .btn-primary:hover { background: #e3a200; }
+        .bs-card .btn-primary { 
+            width: 100%; border-radius: 8px; padding: 10px; background-color: #FFB703; color: #121212; 
+            font-weight: bold; border: none; cursor: pointer; transition: 0.2s; margin-top: auto;
+        }
+        .bs-card .btn-primary:hover { background: #e3a200; }
 
-@media screen and (max-width: 768px) { 
-  .best-seller-section { padding: 25px 0 5px 0; } 
-  .scroll-btn { display: none; } /* Ẩn mũi tên trên điện thoại để người dùng tự vuốt */
-  .bs-card { min-width: 200px; max-width: 200px; }
-}
+        @media screen and (max-width: 768px) { 
+            .best-seller-section { padding: 25px 0 5px 0; } 
+            .scroll-btn { display: none; } 
+            .bs-card { min-width: 200px; max-width: 200px; }
+        }
 
         /* Khung card sản phẩm */
         .product-card { 
@@ -192,17 +174,6 @@
         }
         .cta-buttons a:hover { opacity: 0.8; }
 
-        .healing-grid {
-            display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 50px;
-        }
-        .healing-item {
-            text-decoration: none; background: #1E1E1E; padding: 12px;
-            border-radius: 10px; border: 1px solid #333; box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            text-align: center; display: block; transition: transform 0.3s;
-        }
-        .healing-item:hover { transform: translateY(-5px); border-color: #FFB703; }
-        .healing-item p { font-size: 14px; font-weight: bold; color: #E0E0E0; margin: 0; }
-
         /* Tối ưu hóa cho Mobile */
         @media screen and (max-width: 768px) {
             header { justify-content: flex-start !important; padding: 15px 5% !important; }
@@ -212,7 +183,6 @@
             .product-grid { grid-template-columns: 1fr !important; gap: 20px !important; padding: 0; }
             .product-card { max-width: 100% !important; }
             .product-card img { height: 280px !important; object-fit: cover; }
-            .healing-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 12px !important; }
             .custom-cta-box { padding: 25px 20px !important; margin: 30px auto; }
             .cta-buttons a { display: block !important; margin: 10px 0 !important; }
         }
@@ -322,61 +292,54 @@
 
 <div style="max-width: 1320px; margin: 0 auto; padding: 0 20px;">
     
-    <!-- TÍNH NĂNG MỚI THÊM: SẢN PHẨM BÁN CHẠY (VUỐT NGANG CÓ MŨI TÊN) -->
+<!-- KHU VỰC SẢN PHẨM BÁN CHẠY -->
 <div class="best-seller-section">
   <div class="best-seller-title">🔥 SẢN PHẨM BÁN CHẠY NHẤT</div>
   
   <div class="bs-slider-container">
-      <!-- Nút trượt trái -->
       <button class="scroll-btn scroll-left" onclick="scrollSlider(-300)">&#10094;</button>
 
       <div class="bs-slider" id="bsSlider">
-          
           <!-- Thẻ 1 -->
           <div class="bs-card">
-              <img src="images/sp_2/1. trang.jpg" alt="Đèn Decor Bán Chạy">
+              <img src="images/sp_2/1. trang.jpg" alt="Đèn Decor Bán Chạy" loading="lazy">
               <div class="bs-badge">🔥 ĐÃ BÁN 339</div>
               <button class="btn-primary" onclick="openModal(2)">CHI TIẾT</button>
           </div>
 
           <!-- Thẻ 2 -->
           <div class="bs-card">
-              <img src="images/sp_4/1 trang.jpg" alt="Đèn Decor Bán Chạy">
+              <img src="images/sp_4/1 trang.jpg" alt="Đèn Decor Bán Chạy" loading="lazy">
               <div class="bs-badge">🔥 ĐÃ BÁN 389</div>
               <button class="btn-primary" onclick="openModal(4)">CHI TIẾT</button>
           </div>
 
           <!-- Thẻ 3 -->
           <div class="bs-card">
-              <img src="images/sp_8/1 trang.png" alt="Đèn Decor Bán Chạy">
+              <img src="images/sp_8/1 trang.png" alt="Đèn Decor Bán Chạy" loading="lazy">
               <div class="bs-badge">🔥 ĐÃ BÁN 419</div>
               <button class="btn-primary" onclick="openModal(8)">CHI TIẾT</button>
           </div>
 
           <!-- Thẻ 4 -->
           <div class="bs-card">
-              <img src="images/sp_9/1 TRANG.png" alt="Đèn Decor Bán Chạy">
+              <img src="images/sp_9/1 TRANG.png" alt="Đèn Decor Bán Chạy" loading="lazy">
               <div class="bs-badge">🔥 ĐÃ BÁN 279</div>
               <button class="btn-primary" onclick="openModal(9)">CHI TIẾT</button>
           </div>
 
           <!-- Thẻ 5 -->
           <div class="bs-card">
-              <img src="images/sp_11/1.png" alt="Đèn Decor Bán Chạy">
+              <img src="images/sp_11/1.png" alt="Đèn Decor Bán Chạy" loading="lazy">
               <div class="bs-badge">🔥 ĐÃ BÁN 189</div>
               <button class="btn-primary" onclick="openModal(11)">CHI TIẾT</button>
           </div>
-
-          <!-- Sếp thêm các thẻ khác vào dưới dòng này -->
-
       </div>
 
-      <!-- Nút trượt phải -->
       <button class="scroll-btn scroll-right" onclick="scrollSlider(300)">&#10095;</button>
   </div>
 </div>
 
-<!-- Lệnh điều khiển trượt ngang -->
 <script>
   function scrollSlider(amount) {
       const slider = document.getElementById("bsSlider");
@@ -402,7 +365,8 @@
                 <button class="btn-load-more" onclick="loadMoreProducts()">Xem thêm sản phẩm</button>
             </div>
 
-        <div class="custom-cta-box" style="padding: 20px 20px !important; margin: 20px auto !important;">
+        <!-- Banner tự tay thiết kế (Phần video đã bị xóa) -->
+        <div class="custom-cta-box" style="padding: 20px 20px !important; margin: 20px auto 40px auto !important;">
             <h2>Bạn Muốn Tự Tay Thiết Kế Mẫu Đèn Riêng ?</h2>
             <p>Gửi Ý Tưởng Ngay —  <b>💡 Vua Đèn Decor 💡</b> Sẽ Thiết Kế 3D Và Biến Không Gian Của Bạn Thành Kiệt Tác Ánh Sáng!</p>
             <div class="cta-buttons" style="margin-top: 15px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
@@ -410,32 +374,8 @@
             </div>
         </div>
 
-        <div class="healing-horizontal-container">
-            <h3 style="font-weight: bold; margin-bottom: 20px; color: #FFB703;">GÓC CẢM HỨNG SETUP :</h3>
-            <div class="healing-grid">
-                <!-- Sếp có thể tự thay link video review đèn vào đây sau nhé -->
-                <div class="healing-item">
-                    <iframe src="https://www.youtube.com/embed/ghkLuJc36wg" style="width: 100%; aspect-ratio: 1/1; border-radius: 8px; border: none;" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    <a href="https://www.youtube.com/watch?v=ghkLuJc36wg" target="_blank" style="text-decoration: none; color: inherit; display: block; margin-top: 10px;">
-                        <p style="margin: 0; font-weight: bold;">Review góc Setup siêu chill</p>
-                    </a>
-                </div>
-                <div class="healing-item">
-                    <iframe src="https://www.youtube.com/embed/_7ah1siEwSg" style="width: 100%; aspect-ratio: 1/1; border-radius: 8px; border: none;" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    <a href="https://www.youtube.com/shorts/_7ah1siEwSg" target="_blank" style="text-decoration: none; color: inherit; display: block; margin-top: 10px;">
-                        <p style="margin: 0; font-weight: bold;">Họa tiết đèn 3D độc đáo</p>
-                    </a>
-                </div>
-                <div class="healing-item">
-                    <div style="width: 100%; aspect-ratio: 1/1; border-radius: 8px; background: #2A2A2A; display: flex; align-items: center; justify-content: center; color: #888;">Video 3</div>
-                    <p style="margin-top: 10px; font-weight: bold;">Tùy chỉnh màu sắc đèn</p>
-                </div>
-                <div class="healing-item">
-                    <div style="width: 100%; aspect-ratio: 1/1; border-radius: 8px; background: #2A2A2A; display: flex; align-items: center; justify-content: center; color: #888;">Video 4</div>
-                    <p style="margin-top: 10px; font-weight: bold;">Đóng gói an toàn</p>
-                </div>
-            </div>
         </div>
+    </div> 
 </div> 
 
     <!-- Modal (Popup Chi tiết sản phẩm mới) -->
@@ -497,10 +437,8 @@
                     const bannerImages = settings.hero_banner_imgs;
                     let currentBannerIndex = 0;
                     
-                    // Hiện ảnh đầu tiên ngay lập tức
                     heroBannerImg.src = bannerImages[0];
                     
-                    // Bắt đầu vòng lặp nếu có từ 2 ảnh trở lên
                     if (bannerImages.length > 1) {
                         setInterval(() => {
                             heroBannerImg.style.opacity = 0; 
@@ -519,7 +457,7 @@
             .catch(error => console.error("Lỗi tải settings:", error));
 
         let productDatabase = []; 
-        let currentDisplayLimit = 8; 
+        let currentDisplayLimit = 12; // HIỂN THỊ MẶC ĐỊNH LÀ 12 SẢN PHẨM (3 HÀNG)
         let currentActiveData = []; 
 
         fetch('data.json')
@@ -572,7 +510,7 @@
                             <div class="img-container">
                                 <span class="badge-sold-count"> [ Đã bán  ${randomSold}]</span>
                                 <span class="badge-image-count">${imgCount} ảnh</span>
-                                <img src="${item.img}" alt="${item.name}">                              
+                                <img src="${item.img}" alt="${item.name}" loading="lazy">                              
                             </div>
                             <div class="product-info" style="padding-top: 10px;">
                                 <div class="product-code">Mã: ${productCode}</div>
@@ -606,7 +544,7 @@
         }
 
         function loadMoreProducts() {
-            currentDisplayLimit += 8; 
+            currentDisplayLimit += 12; // MỖI LẦN BẤM SẼ LOAD THÊM 12 SẢN PHẨM (3 HÀNG)
             renderUI(currentActiveData); 
         }
 
@@ -633,7 +571,7 @@
                 return itemName.includes(keyword);
             });
             
-            currentDisplayLimit = 8;
+            currentDisplayLimit = 12;
             renderUI(searchedData);
         }
 
@@ -758,11 +696,9 @@
         }
 
         window.onclick = function(event) {
-            // 1. Nếu click vào nền đen ngoài cùng -> Đóng hẳn bảng chi tiết sản phẩm
             if (event.target === modal) {
                 closeModal();
             }
-            // 2. Nếu click vào nền đen của ảnh phóng to -> CHỈ tắt ảnh phóng to (không đóng bảng chi tiết)
             else if (event.target.id === 'customPhotoZoomModal') {
                 document.getElementById('customPhotoZoomModal').style.display = 'none';
             }
@@ -798,5 +734,14 @@
     <span style="position: absolute; top: 20px; right: 30px; color: white; font-size: 45px; font-weight: bold; cursor: pointer;">&times;</span>
     <img id="zoomedModalImage" src="" alt="Ảnh phóng to chi tiết">
 </div>
+
+<!-- Nút Chat Trôi Nổi Bổ Sung (Nằm ở góc phải màn hình) -->
+<div style="position: fixed; bottom: 20px; right: 20px; z-index: 999; display: flex; flex-direction: column; gap: 15px;">
+    <!-- Nút Messenger -->
+    <a href="https://m.me/vuadendecor" target="_blank" style="width: 50px; height: 50px; background: #0084FF; border-radius: 50%; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" alt="Messenger" width="30">
+    </a>
+</div>
+
 </body>
 </html>
