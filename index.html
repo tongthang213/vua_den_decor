@@ -117,7 +117,7 @@
         }
 
         .product-card img { 
-            width: 100% !important; height: auto !important;       
+            width: 100% !important; height: auto !important;        
             aspect-ratio: 3 / 4 !important; object-fit: cover !important;   
             border-radius: 8px; margin-bottom: 15px; background: #121212;
         }
@@ -223,10 +223,6 @@
             cursor: pointer; border: 2px solid transparent; transition: all 0.2s; flex-shrink: 0;
         }
         .modal-thumbnails img:hover, .modal-thumbnails img.active { border-color: #FFB703; }
-
-        #bottomVideoContainer {
-            width: 100%; margin-top: 10px; display: none;
-        }
         
         .modal-info { width: 48%; display: flex; flex-direction: column; justify-content: flex-start; }
         .modal-info h2 { font-size: 26px; color: #FFB703; margin-bottom: 12px; line-height: 1.4; }
@@ -384,25 +380,39 @@
             <span class="modal-close" onclick="closeModal()">&times;</span>
             <div class="modal-body">
                 
+                <!-- === CỘT TRÁI: KHU VỰC ẢNH V V VIDEO === -->
                 <div class="modal-gallery">
                     <div class="modal-main-img-box">
                         <img id="mainModalImg" src="" alt="Ảnh sản phẩm chính">
+                    </div>
+                    
+                    <div style="font-size: 15px; font-weight: bold; color: #FFB703; margin-top: 15px; margin-bottom: 8px;">
+                        📸 Video & Ảnh SP Thực Tế:
                     </div>
                     
                     <div class="modal-thumbnails" id="modalThumbnails">
                         <!-- Tự động load qua JS -->
                     </div>
 
-                    <div id="bottomVideoContainer">
-                        <div id="bottomVideoContainer">
-                        <div style="font-size: 14px; font-weight: bold; color: #FFB703; margin-bottom: 8px;">🎬 Video & Ảnh  Thực Tế:</div>
-                        <!-- Đã sửa max-width thành 100% và aspect-ratio thành 16/9 -->
-                        <div id="bottomIframeBox" style="width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 10px; overflow: hidden; border: 1px solid #333;">
+                    <!-- Khung Video YouTube (Ngang 16:9) -->
+                    <div id="bottomVideoContainer" style="display: none; width: 100%; margin-top: 15px;">
+                        <div style="font-size: 14px; font-weight: bold; color: #FFB703; margin-bottom: 8px;">🎬 Video Trải Nghiệm:</div>
+                        <div id="bottomIframeBox" style="width: 100%; aspect-ratio: 16/9; margin: 0 auto; background: #000; border-radius: 10px; overflow: hidden; border: 1px solid #333;">
                             <!-- Iframe YouTube sẽ chui vào đây -->
                         </div>
                     </div>
-                </div>
 
+                    <!-- Khung Ảnh Thực Tế Từ Khách -->
+                    <div id="bottomRealImagesContainer" style="width: 100%; margin-top: 20px; display: none;">
+                        <div style="font-size: 14px; font-weight: bold; color: #FFB703; margin-bottom: 8px;">📸 Ảnh Thực Tế Từ Khách:</div>
+                        <div id="realImagesBox" style="display: flex; flex-direction: column; gap: 10px;">
+                            <!-- Ảnh thực tế sẽ chui vào đây -->
+                        </div>
+                    </div>
+                </div>
+                <!-- === KẾT THÚC CỘT TRÁI === -->
+
+                <!-- === CỘT PHẢI: KHU VỰC THÔNG TIN SẢN PHẨM === -->
                 <div class="modal-info">
                     <h2 id="modalTitle">Tên sản phẩm</h2>
                     <div class="modal-price" id="modalPrice">0 đ</div>
@@ -416,6 +426,7 @@
                         </button>
                     </div>
                 </div>
+                <!-- === KẾT THÚC CỘT PHẢI === -->
             </div>
         </div>
     </div>
@@ -453,7 +464,6 @@
                     }
                 }
                 
-                window.ZALO_NUMBER = settings.zalo_number;
                 window.FB_PAGE = settings.facebook_page;
             })
             .catch(error => console.error("Lỗi tải settings:", error));
@@ -595,11 +605,14 @@
                 const mainImg = document.getElementById('mainModalImg');
                 const bottomVideoContainer = document.getElementById('bottomVideoContainer');
                 const bottomIframeBox = document.getElementById('bottomIframeBox');
+                const thumbnailsContainer = document.getElementById('modalThumbnails');
+                const bottomRealImagesContainer = document.getElementById('bottomRealImagesContainer');
+                const realImagesBox = document.getElementById('realImagesBox');
                 
                 mainImg.src = imagesList[0];
                 bottomVideoContainer.style.display = 'none';
                 bottomIframeBox.innerHTML = '';
-
+                
                 mainImg.style.cursor = "zoom-in";
                 mainImg.onclick = function() {
                     const zoomModal = document.getElementById('customPhotoZoomModal');
@@ -627,10 +640,10 @@
                     }
                 }
 
-                const thumbnailsContainer = document.getElementById('modalThumbnails');
                 if(thumbnailsContainer) {
                     thumbnailsContainer.innerHTML = '';
 
+                    // Load Video YouTube (nếu có)
                     if (product.video_url) {
                         const videoId = getYouTubeID(product.video_url);
                         if (videoId) {
@@ -639,10 +652,18 @@
                         }
                     }
 
-                    imagesList.forEach((imgSrc, index) => {
+                    // Tách ảnh sản phẩm và ảnh thực tế dựa vào tên file
+                    const sliderImages = imagesList.filter(img => !img.toLowerCase().includes('thucte'));
+                    const realImages = imagesList.filter(img => img.toLowerCase().includes('thucte'));
+
+                    // Render ảnh lên Slider bên trên
+                    sliderImages.forEach((imgSrc, index) => {
                         const thumbImg = document.createElement('img');
                         thumbImg.src = imgSrc;
-                        if(index === 0) thumbImg.classList.add('active'); 
+                        if(index === 0) {
+                            thumbImg.classList.add('active'); 
+                            mainImg.src = imgSrc;
+                        }
 
                         thumbImg.onmouseover = function() {
                             mainImg.src = imgSrc;
@@ -663,14 +684,17 @@
 
                         thumbnailsContainer.appendChild(thumbImg);
                     });
-                }
 
-                const message = encodeURIComponent(`Chào shop, mình muốn đặt mẫu: ${product.name}`);
-                const zaloBtn = document.getElementById('modalZaloBtn');
-                if(zaloBtn) {
-                    zaloBtn.onclick = function() {
-                        window.open(`https://zalo.me/${window.ZALO_NUMBER || '0833333832'}?text=${message}`, '_blank');
-                    };
+                    // Render ảnh thực tế xuống dưới cùng
+                    realImagesBox.innerHTML = ''; // Reset
+                    if (realImages.length > 0) {
+                        bottomRealImagesContainer.style.display = 'block';
+                        realImages.forEach(imgSrc => {
+                            realImagesBox.innerHTML += `<img src="${imgSrc}" style="width: 100%; border-radius: 8px; border: 1px solid #333; cursor: zoom-in;" onclick="document.getElementById('zoomedModalImage').src=this.src; document.getElementById('customPhotoZoomModal').style.display='flex';" loading="lazy">`;
+                        });
+                    } else {
+                        bottomRealImagesContainer.style.display = 'none';
+                    }
                 }
 
                 const fbBtn = document.getElementById('modalFbBtn');
