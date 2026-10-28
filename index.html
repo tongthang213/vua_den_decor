@@ -216,7 +216,7 @@
         }
 
         .modal-thumbnails {
-            display: flex; gap: 10px; overflow-x: auto; padding-bottom: 5px; align-items: flex-start;
+            display: flex; gap: 10px; overflow-x: auto; padding-bottom: 5px; align-items: flex-start; margin-top: 10px;
         }
         .modal-thumbnails img {
             width: 75px; height: 75px; object-fit: cover; border-radius: 8px; 
@@ -380,14 +380,10 @@
             <span class="modal-close" onclick="closeModal()">&times;</span>
             <div class="modal-body">
                 
-                <!-- === CỘT TRÁI: KHU VỰC ẢNH V V VIDEO === -->
+                <!-- === CỘT TRÁI: KHU VỰC ẢNH VÀ VIDEO === -->
                 <div class="modal-gallery">
                     <div class="modal-main-img-box">
                         <img id="mainModalImg" src="" alt="Ảnh sản phẩm chính">
-                    </div>
-                    
-                    <div style="font-size: 15px; font-weight: bold; color: #FFB703; margin-top: 15px; margin-bottom: 8px;">
-                        📸 Video & Ảnh SP Thực Tế:
                     </div>
                     
                     <div class="modal-thumbnails" id="modalThumbnails">
@@ -395,8 +391,8 @@
                     </div>
 
                     <!-- Khung Video YouTube (Ngang 16:9) -->
-                    <div id="bottomVideoContainer" style="display: none; width: 100%; margin-top: 15px;">
-                        <div style="font-size: 14px; font-weight: bold; color: #FFB703; margin-bottom: 8px;">🎬 Video Trải Nghiệm:</div>
+                    <div id="bottomVideoContainer" style="display: none; width: 100%; margin-top: 20px;">
+                        <div style="font-size: 15px; font-weight: bold; color: #FFB703; margin-bottom: 8px;">🎬 Video Trải Nghiệm:</div>
                         <div id="bottomIframeBox" style="width: 100%; aspect-ratio: 16/9; margin: 0 auto; background: #000; border-radius: 10px; overflow: hidden; border: 1px solid #333;">
                             <!-- Iframe YouTube sẽ chui vào đây -->
                         </div>
@@ -404,7 +400,7 @@
 
                     <!-- Khung Ảnh Thực Tế Từ Khách -->
                     <div id="bottomRealImagesContainer" style="width: 100%; margin-top: 20px; display: none;">
-                        <div style="font-size: 14px; font-weight: bold; color: #FFB703; margin-bottom: 8px;">📸 Ảnh Thực Tế Từ Khách:</div>
+                        <div style="font-size: 15px; font-weight: bold; color: #FFB703; margin-bottom: 8px;">📸 Ảnh Thực Tế Từ Khách:</div>
                         <div id="realImagesBox" style="display: flex; flex-direction: column; gap: 10px;">
                             <!-- Ảnh thực tế sẽ chui vào đây -->
                         </div>
