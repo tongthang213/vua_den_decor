@@ -851,5 +851,50 @@
             "Bóng LED 5W ánh sáng vàng",
             "Nguồn điện: 220V trực tiếp"
         ]
+    },
+    {
+        "id": 54,
+        "name": "💡Đèn Decor In 3D - KL054",
+        "price": "1000",
+        "video_url": "",
+        "img": "images/default.jpg",
+        "images": [
+            "images/default.jpg"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "💡Đèn Decor In 3D - KL055",
+        "price": "10000",
+        "video_url": "",
+        "img": "images/default.jpg",
+        "images": [
+            "images/default.jpg"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 56,
+        "name": "💡Đèn Decor In 3D - KL056",
+        "price": "10000",
+        "video_url": "",
+        "img": "images/default.jpg",
+        "images": [
+            "images/default.jpg"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
     }
 ]
