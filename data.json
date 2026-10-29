@@ -854,12 +854,15 @@
     },
     {
         "id": 55,
-        "name": "💡Đèn Decor In 3D - KL055",
-        "price": "10000",
+        "name": "💡Đèn Decor In 3D - KL055 - Cao 16 x  Rộng 12 cm ( Size Vừa )",
+        "price": "239.000 đ",
         "video_url": "",
-        "img": "images/default.jpg",
+        "img": "images/sp_55/1.png",
         "images": [
-            "images/default.jpg"
+            "images/sp_55/1.png",
+            "images/sp_55/2.png",
+            "images/sp_55/3.png",
+            "images/sp_55/4.png"
         ],
         "desc": [
             "Chất liệu: Nhựa PETG xuyên sáng",
@@ -869,12 +872,83 @@
     },
     {
         "id": 56,
-        "name": "💡Đèn Decor In 3D - KL056",
-        "price": "10000",
+        "name": "💡Đèn Decor In 3D - KL056 - Cao 18 x  Rộng 10 cm ( Size Nhỏ )",
+        "price": "179.000 đ",
         "video_url": "",
-        "img": "images/default.jpg",
+        "img": "images/sp_56/1.png",
         "images": [
-            "images/default.jpg"
+            "images/sp_56/1.png",
+            "images/sp_56/2.png",
+            "images/sp_56/3.png"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "💡Đèn Decor In 3D - KL057 - Cao 16 x  Rộng 10 cm ( Size Nhỏ )",
+        "price": "179.000 đ",
+        "video_url": "",
+        "img": "images/sp_57/1.png",
+        "images": [
+            "images/sp_57/1.png",
+            "images/sp_57/2.png",
+            "images/sp_57/3.png",
+            "images/sp_57/4.png"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "💡Đèn Decor In 3D - KL058 - Cao 18 x  Rộng 10 cm ( Size Nhỏ )",
+        "price": "179.000 đ",
+        "video_url": "",
+        "img": "images/sp_58/1.png",
+        "images": [
+            "images/sp_58/1.png",
+            "images/sp_58/2.png",
+            "images/sp_58/3.png"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "💡Đèn Decor In 3D - KL059 - Cao 18 x  Rộng 10 cm ( Size Nhỏ )",
+        "price": "179.000 đ",
+        "video_url": "",
+        "img": "images/sp_59/1.png",
+        "images": [
+            "images/sp_59/1.png",
+            "images/sp_59/2.png",
+            "images/sp_59/3.png"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "💡Đèn Decor In 3D - KL060 - Cao 21 x  Rộng 10 cm ( Size Vừa )",
+        "price": "239.000 đ",
+        "video_url": "",
+        "img": "images/sp_60/1.png",
+        "images": [
+            "images/sp_60/1.png",
+            "images/sp_60/2.png",
+            "images/sp_60/3.png"
         ],
         "desc": [
             "Chất liệu: Nhựa PETG xuyên sáng",
