@@ -575,8 +575,19 @@
             }
             
             const searchedData = productDatabase.filter(item => {
-                const itemName = removeVietnameseTones(item.name.toLowerCase());
-                return itemName.includes(keyword);
+                // Gom tất cả thông tin lại: Tên sản phẩm, Giá tiền, và Mã sản phẩm thành một chuỗi
+                const itemName = removeVietnameseTones(item.name ? item.name.toLowerCase() : "");
+                const itemPrice = item.price ? String(item.price).toLowerCase() : "";
+                const itemId = String(item.id);
+                const productCode = `sp ${itemId}`.toLowerCase();
+                const paddedCode = `sp ${itemId.padStart(3, '0')}`.toLowerCase();
+
+                // Kiểm tra xem từ khóa sếp gõ có nằm trong Tên, Giá, hoặc Mã sản phẩm không
+                return itemName.includes(keyword) || 
+                       itemPrice.includes(keyword) || 
+                       itemId.includes(keyword) || 
+                       productCode.includes(keyword) || 
+                       paddedCode.includes(keyword);
             });
             
             currentDisplayLimit = 12;
