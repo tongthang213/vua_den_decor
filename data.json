@@ -2,7 +2,7 @@
     {
         "id": 1,
         "category": "plant",
-        "name": "💡Đèn Decor In 3D - DX001 - Cao 16 x  Rộng 9 cm ( Size Nhỏ )",
+        "name": "💡Đèn Decor In 3D - KL001 - Cao 16 x  Rộng 9 cm ( Size Nhỏ )",
         "price": "179.000 đ",
         "img": "images/sp_1/11.jpg",
         "images": [
@@ -18,7 +18,7 @@
     },
     {
         "id": 2,
-        "name": "💡Đèn Decor In 3D - LK002 - Cao 25 x  Rộng 15 cm ( Size To )",
+        "name": "💡Đèn Decor In 3D - KL002 - Cao 25 x  Rộng 15 cm ( Size To )",
         "price": "279.000 đ",
         "video_url": "https://youtube.com/shorts/2s80B0MpZCI?feature=share",
         "img": "images/sp_2/1. trang.jpg",
@@ -34,7 +34,7 @@
     },
     {
         "id": 3,
-        "name": "💡Đèn Decor In 3D - LK003 - Cao 24 x  Rộng 23 cm ( Size To )",
+        "name": "💡Đèn Decor In 3D - KL003 - Cao 24 x  Rộng 23 cm ( Size To )",
         "price": "279.000 đ",
         "video_url": "https://youtube.com/shorts/LZ7vrqYzo9k?feature=share",
         "img": "images/sp_3/1. trang.jpg",
@@ -50,7 +50,7 @@
     },
     {
         "id": 4,
-        "name": "💡Đèn Decor In 3D - LK004 - Cao 33 x  Rộng 16 cm ( Size Đại )",
+        "name": "💡Đèn Decor In 3D - KL004 - Cao 33 x  Rộng 16 cm ( Size Đại )",
         "price": "359.000 đ",
         "video_url": "https://youtube.com/shorts/zxsf68lrSS0?feature=share",
         "img": "images/sp_4/1 trang.jpg",
@@ -66,7 +66,7 @@
     },
     {
         "id": 5,
-        "name": "💡Đèn Decor In 3D - LK005 - Cao 33 x  Rộng 16 cm ( Size Nhỏ )",
+        "name": "💡Đèn Decor In 3D - KL005 - Cao 33 x  Rộng 16 cm ( Size Nhỏ )",
         "price": "179.000 đ",
         "video_url": "https://youtube.com/shorts/3q4_W-uFLY0?feature=share",
         "img": "images/sp_5/1.jpg",
@@ -98,7 +98,7 @@
     },
     {
         "id": 7,
-        "name": "💡Đèn Decor In 3D - LK007 - Cao 25 x  Rộng 16 cm ( Size To )",
+        "name": "💡Đèn Decor In 3D - KL007 - Cao 25 x  Rộng 16 cm ( Size To )",
         "price": "279.000 đ",
         "video_url": "https://www.youtube.com/shorts/46eOQBiPMew",
         "img": "images/sp_7/1 trang.png",
@@ -114,7 +114,7 @@
     },
     {
         "id": 8,
-        "name": "💡Đèn Decor In 3D - LK008 - Cao 29 x  Rộng 13 cm ( Size To )",
+        "name": "💡Đèn Decor In 3D - KL008 - Cao 29 x  Rộng 13 cm ( Size To )",
         "price": "289.000 đ",
         "video_url": "https://www.youtube.com/shorts/5oogNKvUds0",
         "img": "images/sp_8/1 trang.png",
@@ -129,7 +129,7 @@
     },
     {
         "id": 9,
-        "name": "💡Đèn Decor In 3D - LK009 - Cao 18 x  Rộng 17 cm ( Size To )",
+        "name": "💡Đèn Decor In 3D - KL009 - Cao 18 x  Rộng 17 cm ( Size To )",
         "price": "299.000 đ",
         "video_url": "https://www.youtube.com/shorts/xEt4PV_bCnw",
         "img": "images/sp_9/1 TRANG.png",
@@ -145,7 +145,7 @@
     },
     {
         "id": 10,
-        "name": "💡Đèn Decor In 3D - LK010 - Cao 25 x  Rộng 15 cm ( Size To )",
+        "name": "💡Đèn Decor In 3D - KL010 - Cao 25 x  Rộng 15 cm ( Size To )",
         "price": "299.000 đ",
         "video_url": "https://www.youtube.com/shorts/hhbnizTO-_A",
         "img": "images/sp_10/1 trang.png",
@@ -161,7 +161,7 @@
     },
     {
         "id": 11,
-        "name": "💡Đèn Decor In 3D - LK011 - Cao 33 x  Rộng 15 cm ( Size To )",
+        "name": "💡Đèn Decor In 3D - KL011 - Cao 33 x  Rộng 15 cm ( Size To )",
         "price": "279.000 đ",
         "video_url": "https://www.youtube.com/shorts/gsC06t_isxk",
         "img": "images/sp_11/1.png",
@@ -177,7 +177,7 @@
     },
     {
         "id": 12,
-        "name": "💡Đèn Decor In 3D - LK012 - Cao 33 x  Rộng 15 cm ( Size To )",
+        "name": "💡Đèn Decor In 3D - KL012 - Cao 33 x  Rộng 15 cm ( Size To )",
         "price": "279.000 d",
         "video_url": "https://www.youtube.com/shorts/XNGXoaavZVY",
         "img": "images/sp_12/1.png",
@@ -193,7 +193,7 @@
     },
     {
         "id": 13,
-        "name": "💡Đèn Decor In 3D - DX013 - Cao 21 x  Rộng 17 cm ( Size To )",
+        "name": "💡Đèn Decor In 3D - KL013 - Cao 21 x  Rộng 17 cm ( Size To )",
         "price": "289.000 d",
         "video_url": "https://youtube.com/shorts/r5U6f70ox-g?feature=share",
         "img": "images/sp_13/1.png",
@@ -209,7 +209,7 @@
     },
     {
         "id": 14,
-        "name": "💡Đèn Decor In 3D - DX014 - Cao 21 x  Rộng 20 cm ( Size Đại )",
+        "name": "💡Đèn Decor In 3D - KL014 - Cao 21 x  Rộng 20 cm ( Size Đại )",
         "price": "379.000 d",
         "video_url": "https://youtube.com/shorts/ElWGHrnrFCY?feature=share",
         "img": "images/sp_14/1.jpg",
