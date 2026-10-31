@@ -934,12 +934,15 @@
     },
     {
         "id": 61,
-        "name": "61",
-        "price": "179.000 đ",
+        "name": "💡Đèn Decor In 3D - KL061 - Cao 22 x  Rộng 19 cm ( Size Vừa )",
+        "price": "239.000 đ",
         "video_url": "",
-        "img": "images/default.jpg",
+        "img": "images/sp_61/1.png",
         "images": [
-            "images/default.jpg"
+            "images/sp_61/1.png",
+            "images/sp_61/2.png",
+            "images/sp_61/3.png",
+            "images/sp_61/4.png"
         ],
         "desc": [
             "Chất liệu: Nhựa PETG xuyên sáng",
@@ -949,12 +952,15 @@
     },
     {
         "id": 62,
-        "name": "62",
-        "price": "179.000 đ",
+        "name": "💡Đèn Decor In 3D - KL062 - Cao 24 x  Rộng 19 cm ( Size To )",
+        "price": "279.000 đ",
         "video_url": "",
-        "img": "images/default.jpg",
+        "img": "images/sp_62/1.png",
         "images": [
-            "images/default.jpg"
+            "images/sp_62/1.png",
+            "images/sp_62/2.png",
+            "images/sp_62/3.png",
+            "images/sp_62/4.png"
         ],
         "desc": [
             "Chất liệu: Nhựa PETG xuyên sáng",
@@ -964,12 +970,15 @@
     },
     {
         "id": 63,
-        "name": "63",
+        "name": "💡Đèn Decor In 3D - KL063 - Cao 18 x  Rộng 9 cm ( Size Nhỏ )",
         "price": "179.000 đ",
         "video_url": "",
-        "img": "images/default.jpg",
+        "img": "images/sp_63/1.png",
         "images": [
-            "images/default.jpg"
+            "images/sp_63/1.png",
+            "images/sp_63/2.png",
+            "images/sp_63/3.png",
+            "images/sp_63/4.png"
         ],
         "desc": [
             "Chất liệu: Nhựa PETG xuyên sáng",
