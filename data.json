@@ -931,5 +931,50 @@
             "images/sp_60/3.png"
         ],
         "desc": "<div style=\"line-height: 1.6; font-size: 15px;\">\n    <p style=\"margin-bottom: 12px;\">\n        ✨ <b>Trụ sáng sọc nhuyễn - Nét chấm phá Minimalism thanh lịch!</b><br>\n        Mẫu đèn SP 060 mang đến vẻ đẹp tối giản tuyệt đối với phom dáng hình trụ đứng thẳng tắp. Thiết kế được chia làm hai phần tinh tế: phần lồng đèn tản sáng phía trên nổi bật với những đường gân sọc dọc siêu nhuyễn chạy song song, kết hợp cùng phần chân đế trơn nhẵn mang tông màu xanh ngọc pastel (mint) vô cùng mát mắt và hiện đại. Sự phối hợp hài hòa giữa bề mặt họa tiết hình học và màu sắc nhã nhặn giúp chiếc đèn trở thành một điểm nhấn hoàn hảo, mang lại không gian tươi mới, nhẹ nhàng và ngập tràn cảm hứng thư giãn.\n    </p>\n\n    <div style=\"color: #FFB703; font-weight: bold; font-size: 16px; margin-bottom: 5px;\">💡 Thông số kỹ thuật:</div>\n    <ul style=\"margin-top: 0; margin-bottom: 15px; padding-left: 20px;\">\n        <li><b>Kích thước:</b> <span style=\"color: #FF4444; font-weight: bold;\">Cao 21 cm x Rộng 10 cm x Sâu 10 cm.</span></li>\n        <li><b>Chất liệu:</b> Nhựa sinh học PETG cao cấp, an toàn và thân thiện với môi trường. Lồng đèn tản sáng mượt mà kết hợp phần chân đế in 3D trơn nhẵn vô cùng chắc chắn và bám bàn.</li>\n        <li><b>Màu ánh sáng:</b> Khách hàng vui lòng chọn 1 trong 6 màu đơn sắc cố định: ⚪ Trắng - 🟡 Vàng - 🟠 Cam - 🔴 Đỏ - 🔵 Xanh Dương - 🟢 Xanh Lá. <br>\n        <i>(Gợi ý: Ánh sáng Trắng hoặc Vàng ấm sẽ hòa quyện tuyệt vời với phần đế xanh pastel, mang lại vibe chuẩn phong cách Bắc Âu - Scandinavian).</i></li>\n        <li><b>Nguồn:</b> Bóng LED 5W tiết kiệm điện (Có công tắc tăng/giảm độ sáng).<br>\n        🎁 <b>Tặng kèm 1 củ sạc 5V đạt chuẩn 3C.</b></li>\n    </ul>\n\n    <div style=\"color: #FFB703; font-weight: bold; font-size: 16px; margin-bottom: 5px;\">🌟 Điểm nhấn & Đặc quyền:</div>\n    <ul style=\"margin-top: 0; margin-bottom: 15px; padding-left: 20px;\">\n        <li><b>Hiệu ứng thị giác:</b> Các đường vân sọc dọc nhuyễn giúp ánh sáng được tản đều, không gây chói mắt. Phom dáng hình trụ gọn gàng tạo sự ngăn nắp, thanh thoát cho tổng thể không gian.</li>\n        <li><b>Không gian bài trí:</b> Lựa chọn lý tưởng cho bàn làm việc, tab đầu giường, kệ sách, bàn trang điểm hoặc các không gian mang phong cách Minimalism, Scandinavian, Pastel.</li>\n        <li><b>Cá nhân hóa (Đặc quyền in 3D):</b> Nhận tùy chỉnh màu sắc phần chân đế (ví dụ: hồng pastel, trắng, xám xi măng) hoặc khắc tên ở mặt đáy theo yêu cầu riêng (Vui lòng nhắn tin qua Facebook Messenger để được tư vấn).</li>\n    </ul>\n\n    <div style=\"color: #FFB703; font-weight: bold; font-size: 16px; margin-bottom: 5px;\">🛡️ Hướng dẫn bảo quản:</div>\n    <ul style=\"margin-top: 0; margin-bottom: 15px; padding-left: 20px;\">\n        <li>Vệ sinh dễ dàng bằng cọ mềm quét nhẹ bề mặt vân sọc hoặc dùng khăn khô/ẩm nhẹ lau sạch.</li>\n        <li>Tránh để sản phẩm gần nguồn nhiệt cao (trên 60°C) hoặc phơi nắng gắt trực tiếp để giữ được độ bền vững của cấu trúc nhựa.</li>\n    </ul>\n\n    <p style=\"margin-bottom: 0; padding: 10px; background-color: #2A2A2A; border-radius: 6px; border-left: 4px solid #FFB703; color: #FFFFFF;\">\n        📦 <b>Đóng gói & Bảo hành:</b> Sản phẩm được đóng hộp Kraft cứng cáp lót xốp an toàn. Hỗ trợ 1 đổi 1 ngay lập tức nếu có sự cố do vận chuyển.\n    </p>\n</div>"
+    },
+    {
+        "id": 61,
+        "name": "61",
+        "price": "179.000 đ",
+        "video_url": "",
+        "img": "images/default.jpg",
+        "images": [
+            "images/default.jpg"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "62",
+        "price": "179.000 đ",
+        "video_url": "",
+        "img": "images/default.jpg",
+        "images": [
+            "images/default.jpg"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "63",
+        "price": "179.000 đ",
+        "video_url": "",
+        "img": "images/default.jpg",
+        "images": [
+            "images/default.jpg"
+        ],
+        "desc": [
+            "Chất liệu: Nhựa PETG xuyên sáng",
+            "Bóng LED 5W ánh sáng vàng",
+            "Nguồn điện: 220V trực tiếp"
+        ]
     }
 ]
